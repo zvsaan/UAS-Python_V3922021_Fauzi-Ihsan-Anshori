@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[18]:
+# In[38]:
 
 
 import requests #Mengirim permintaan HTTP
@@ -45,7 +45,7 @@ print(' ')
 print('Data telah berhasil disimpan dalam file', filename)
 
 
-# In[19]:
+# In[39]:
 
 
 import pandas as pd
@@ -55,7 +55,7 @@ data=pd.read_csv("File.csv")
 display(data.head(5))
 
 
-# In[28]:
+# In[42]:
 
 
 import pandas as pd
@@ -75,7 +75,7 @@ plt.savefig("Scatter Plot", facecolor='y', bbox_inches="tight",
            pad_inches=0.3, transparent=True)
 
 
-# In[29]:
+# In[44]:
 
 
 import pandas as pd 
